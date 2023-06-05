@@ -10,7 +10,7 @@ public class Main{
     }
 }
 
-public class Car {
+class Car {
     String make = "Chevrolet";
     String model = "Covertte";
     int year = 2020;

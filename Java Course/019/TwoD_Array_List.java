@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class TwoD_Array_List {
     public static void main(String[] args){
-        ArrayList<ArrayList<String>> groceryList = new ArrayList();
+        ArrayList<ArrayList<String>> groceryList = new ArrayList<ArrayList<String>>();
 
         ArrayList<String> bakeryList = new ArrayList<>();
         bakeryList.add("pasta");
