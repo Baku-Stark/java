@@ -1,7 +1,9 @@
 package Colors;
 
 public class Main {
-    
+    public static void main(String[] args) {
+        System.out.println(ConsoleColors.RED + " Olá! " + ConsoleColors.RESET);
+    }
 }
 
 class ConsoleColors {
