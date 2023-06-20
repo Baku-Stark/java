@@ -220,6 +220,51 @@ _[UTF-8 CODE](https://www.charset.org/utf-8)_
 
 </tr>
 
+<tr align="center">
+
+<td>
+
+*HIPOTENUSA*
+
+</td>
+<td>
+
+[014](014/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+*SENO, COSSENO e TANGENTE*
+
+</td>
+<td>
+
+[015](015/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+*SORTEAR UM ALUNO*
+
+</td>
+<td>
+
+[016](016/Main.java)
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
