@@ -116,6 +116,110 @@ _[UTF-8 CODE](https://www.charset.org/utf-8)_
 
 </tr>
 
+<tr align="center">
+
+<td>
+
+*TABUADA*
+
+</td>
+<td>
+
+[007](007/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+*Conversão [REAL -> DÓLAR]*
+
+</td>
+<td>
+
+[008](008/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+*Pintando A Parede*
+
+</td>
+<td>
+
+[009](009/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+*CALCULAR DESCONTO (5%)*
+
+</td>
+<td>
+
+[010](010/Main.java)
+
+</td>
+
+</tr>
+<tr align="center">
+
+<td>
+
+*CONVERSÃO °C para °F*
+
+</td>
+<td>
+
+[011](011/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+*KM RODADOS POR DIA*
+
+</td>
+<td>
+
+[012](012/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+*INTEGER TO FLOAT*
+
+</td>
+<td>
+
+[013](013/Main.java)
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
