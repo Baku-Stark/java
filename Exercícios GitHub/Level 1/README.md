@@ -265,6 +265,66 @@ _[UTF-8 CODE](https://www.charset.org/utf-8)_
 
 </tr>
 
+<tr align="center">
+
+<td>
+
+*LEITURA DE NOME*
+
+</td>
+<td>
+
+[017](017/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+*LEITURA DE NÚMERO*
+
+</td>
+<td>
+
+[018](018/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+*CIDADE COM "SANTO" NO ÍNICIO*
+
+</td>
+<td>
+
+[019](019/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+*NOME COM "SILVA"*
+
+</td>
+<td>
+
+[019](019/Main.java)
+
+</td>
+
+</tr>
+
 </tbody>
 
 </table>
