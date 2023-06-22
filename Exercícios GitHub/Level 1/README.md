@@ -319,7 +319,37 @@ _[UTF-8 CODE](https://www.charset.org/utf-8)_
 </td>
 <td>
 
-[019](019/Main.java)
+[020](020/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+*CONTAGEM DA LETRA "A"*
+
+</td>
+<td>
+
+[021](021/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+*LER O PRIMEIRO E ÚLTIMO NOME*
+
+</td>
+<td>
+
+[022](022/Main.java)
 
 </td>
 
