@@ -354,6 +354,123 @@ _[UTF-8 CODE](https://www.charset.org/utf-8)_
 </td>
 
 </tr>
+<tr align="center">
+
+<td>
+
+*JOGO DE ADIVINHAÇÃO*
+
+</td>
+<td>
+
+[023](023/Main.java)
+
+</td>
+
+</tr>
+<tr align="center">
+
+<td>
+
+*VELOCIDADE DE UM VEÍCULO E SUA MULTA*
+
+</td>
+<td>
+
+[024](024/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+*ÍMPAR OU PAR*
+
+</td>
+<td>
+
+[025](025/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+*DISTÂNCIA DE UMA VIAGEM E O PREÇO DA PASSAGEM*
+
+</td>
+<td>
+
+[026](026/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+*ANO BISSEXTO OU NÃO*
+
+</td>
+<td>
+
+[027](027/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+*DETERMINAR O MAIOR E O MENOR NÚMERO*
+
+</td>
+<td>
+
+[028](028/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+*AUMENTO DE SALÁRIO EM 10% OU 15%*
+
+</td>
+<td>
+
+[029](029/Main.java)
+
+</td>
+
+</tr>
+<tr align="center">
+
+<td>
+
+*CRIAR UM RETÂNGULO*
+
+</td>
+<td>
+
+[030](030/Main.java)
+
+</td>
+
+</tr>
 
 </tbody>
 
