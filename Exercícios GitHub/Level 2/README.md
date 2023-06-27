@@ -41,6 +41,65 @@ _[UTF-8 CODE](https://www.charset.org/utf-8)_
 
 </tr>
 
+<tr align="center">
+
+<td>
+
+**CONVERSÃO BINÁRIO, OCTAL E HEXADECIMAL**
+
+</td>
+<td>
+
+[002](002/Main.java)
+
+</td>
+
+</tr>
+<tr align="center">
+
+<td>
+
+**LEITURA DE NÚMEROS E VERIFICAR QUAL É MAIOR E MENOR**
+
+</td>
+<td>
+
+[003](003/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+**SERVIÇO MILITAR (ALISTAMENTO)**
+
+</td>
+<td>
+
+[004](004/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+**NOTA ESCOLAR**
+
+</td>
+<td>
+
+[005](005/Main.java)
+
+</td>
+
+</tr>
+
 <tbody>
 
 </div>
