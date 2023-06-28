@@ -100,6 +100,36 @@ _[UTF-8 CODE](https://www.charset.org/utf-8)_
 
 </tr>
 
+<tr align="center">
+
+<td>
+
+**CATEGORIA NA NATAÇÃO**
+
+</td>
+<td>
+
+[006](006/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+**TIPO DE TRIÂNGULO GERADO**
+
+</td>
+<td>
+
+[007](007/Main.java)
+
+</td>
+
+</tr>
+
 <tbody>
 
 </div>

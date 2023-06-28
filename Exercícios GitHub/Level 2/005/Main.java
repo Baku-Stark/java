@@ -17,7 +17,7 @@ public class Main{
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("==============================");
-        System.out.printf("%4s BOLTEIM ESCOLAR\n", " ");
+        System.out.printf("%4s BOLETIM ESCOLAR\n", " ");
 
         System.out.println();
 
