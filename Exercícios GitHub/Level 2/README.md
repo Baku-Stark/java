@@ -130,6 +130,51 @@ _[UTF-8 CODE](https://www.charset.org/utf-8)_
 
 </tr>
 
+<tr align="center">
+
+<td>
+
+**CALCULAR O IMC**
+
+</td>
+<td>
+
+[008](008/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+**OPÇÃO DE PAGAMENTO**
+
+</td>
+<td>
+
+[009](009/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+**JOKENPÔ**
+
+</td>
+<td>
+
+[010](010/Main.java)
+
+</td>
+
+</tr>
+
 <tbody>
 
 </div>
