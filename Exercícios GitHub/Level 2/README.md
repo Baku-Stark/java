@@ -175,6 +175,96 @@ _[UTF-8 CODE](https://www.charset.org/utf-8)_
 
 </tr>
 
+<tr align="center">
+
+<td>
+
+**CONTAGEM REGRESSIVA**
+
+</td>
+<td>
+
+[011](011/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+**MOSTRAR OS NÚMEROS PARES**
+
+</td>
+<td>
+
+[012](012/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+**SOMA DE NÚMEROS MÚLTIPLOS DE TRÊS**
+
+</td>
+<td>
+
+[013](013/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+**LEITURA DE NÚMERO INTEIROS (SOMAR OS NÚMEROS PARES)**
+
+</td>
+<td>
+
+[014](014/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+**DESCOBRIR SE O NÚMERO É PRIMO**
+
+</td>
+<td>
+
+[015](015/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+**PALÍNDROMOS**
+
+</td>
+<td>
+
+[016](016/Main.java)
+
+</td>
+
+</tr>
+
 <tbody>
 
 </div>
