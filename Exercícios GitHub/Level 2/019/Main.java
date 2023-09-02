@@ -59,7 +59,7 @@ public class Main{
 		}
 
 		System.out.println("RESULTADO!!!");
-		System.out.println("Média de IDADES : " + media/4);
+		System.out.println("Média de IDADES : " + sum_idade/4);
 		System.out.println("Nome do homem mais velho : " + nome_homem_mais_velho);
 		System.out.println("Mulheres com menos de 20 anos : " + mulheres_menos_20);
 
