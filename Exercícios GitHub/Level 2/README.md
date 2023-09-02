@@ -265,6 +265,51 @@ _[UTF-8 CODE](https://www.charset.org/utf-8)_
 
 </tr>
 
+<tr align="center">
+
+<td>
+
+**CONTAGEM DE PESSOAS ACIMA DOS 18 ANOS**
+
+</td>
+<td>
+
+[017](017/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+**MAIOR E MENOR PESO ENTRE 5 PESSOAS**
+
+</td>
+<td>
+
+[018](018/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+**NOME DO HOMEM MAIS VELHO E QUANTAS MULHERES SÃO MENORES DE 20**
+
+</td>
+<td>
+
+[019](019/Main.java)
+
+</td>
+
+</tr>
+
 <tbody>
 
 </div>
