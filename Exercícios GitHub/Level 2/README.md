@@ -310,6 +310,36 @@ _[UTF-8 CODE](https://www.charset.org/utf-8)_
 
 </tr>
 
+<tr align="center">
+
+<td>
+
+**LER APENAS OS VALORES 'M' E 'F'**
+
+</td>
+<td>
+
+[020](020/Main.java)
+
+</td>
+
+</tr>
+
+<tr align="center">
+
+<td>
+
+**JOGO DA ADIVINHAÇÃO DE NÚMEROS(0 até 10) 2**
+
+</td>
+<td>
+
+[021](021/Main.java)
+
+</td>
+
+</tr>
+
 <tbody>
 
 </div>
