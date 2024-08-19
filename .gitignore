@@ -25,3 +25,4 @@ replay_pid*
 SpringBoot/java-api-spring-railway/src/main/resources/application-prd.yml
 SpringBoot/java-api-spring-railway/src/main/resources/application-prd.yml
 *.yml
+SpringBoot/railway-mysql/src/main/resources/application.properties
