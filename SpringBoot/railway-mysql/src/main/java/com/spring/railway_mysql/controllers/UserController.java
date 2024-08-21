@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/users")
@@ -36,6 +37,12 @@ public class UserController {
         return userRepository.findAll();
     }
 
+    @GetMapping("/get_user/{id}")
+    public Optional<User> readOneUser(@PathVariable("id") Long id){
+        System.out.println("User ID: " + id);
+        return userRepository.findById(id);
+    }
+
 
     /**
      * <h1>CREATE</h1>
@@ -45,7 +52,7 @@ public class UserController {
      *
      * @return ResponseEntity
      */
-    @PostMapping(value = "/create_user", name = "Criar um novo usuário")
+    @PostMapping("/create_user")
     public ResponseEntity<User> createUser(@RequestBody User user) {
         //userRepository.save(user);
         System.out.printf("{name: %s, email: %s}", user.getName(), user.getEmail());
@@ -54,5 +61,41 @@ public class UserController {
             return new ResponseEntity<>(user, HttpStatus.CREATED);
         }
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(user);
+    }
+
+    /**
+     * <h1>DELETE</h1>
+     * Deleter um usuário
+     * 
+     * @return ResponseEntity
+     */
+    @DeleteMapping("/delete_user/{id}")
+    public ResponseEntity<Optional<User>> deleteUser(@PathVariable("id") Long id){
+        Optional<User> userDeleted = userRepository.findById(id);
+
+        userRepository.deleteById(id);
+        return ResponseEntity.status(HttpStatus.ACCEPTED).body(userDeleted);
+    }
+
+    /**
+     * <h1>UPDATE</h1>
+     * 
+     * @return ResponseEntity
+     */
+    @PutMapping("/update_user/{id}")
+    public ResponseEntity<User> updateUser(@PathVariable("id") Long id, @RequestBody User user){
+        Optional<User> userUpdated = userRepository.findById(id);
+
+        if (userUpdated.isPresent()) {
+            User existingUser = userUpdated.get();
+            existingUser.setName(user.getName());
+            existingUser.setEmail(user.getEmail());
+
+            return ResponseEntity.ok(userRepository.save(existingUser));
+        }
+        
+        else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
     }
 }

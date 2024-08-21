@@ -34,18 +34,18 @@ Com as credenciais do MySQL em mãos, você precisa configurar seu projeto Sprin
 
 1. No arquivo `application.properties` (ou `application.yml`), adicione as seguintes propriedades:
 
-   ```properties
-   spring.datasource.url=jdbc:mysql://<HOST>:<PORT>/<DATABASE>
-   spring.datasource.username=<USERNAME>
-   spring.datasource.password=<PASSWORD>
-   spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+```properties
+spring.datasource.url=jdbc:mysql://${MYSQL_PUBLIC_URL}
+spring.datasource.username=${MYSQL_USER}
+spring.datasource.password=${MYSQL_PASS}
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
-   spring.jpa.hibernate.ddl-auto=update
-   spring.jpa.show-sql=true
-   spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
-   ```
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+```
 
-   Substitua `<HOST>`, `<PORT>`, `<DATABASE>`, `<USERNAME>`, e `<PASSWORD>` pelos valores obtidos no Railway.
+Insirir os valores na Variavel de Ambiente do editor de código.
 
 2. Opcionalmente, você pode configurar variáveis de ambiente no Railway para armazenar essas informações sensíveis de forma segura. No Railway, adicione as variáveis de ambiente correspondentes e, no `application.properties`, referencie essas variáveis:
 
