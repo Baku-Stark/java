@@ -13,7 +13,7 @@ import java.util.Base64;
 public class App {
 
     /**
-     * <p> Gera um vetir de start (IV) para o modo CBC.</p>
+     * <p>Gera um vetir de start (IV) para o modo CBC.</p>
      * 
      * @return
      */
@@ -73,6 +73,15 @@ public class App {
         return Base64.getEncoder().encodeToString(encryptedBytes);
     }
 
+    /**
+     * <p>Descriptografa o texto fornecido usando a chave secreta</p>
+     * 
+     * @param message
+     * @param key
+     * @param iv
+     * @return
+     * @throws Exception
+     */
     public static String decrypt(String message, SecretKey key, IvParameterSpec iv) throws Exception{
         Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
         cipher.init(Cipher.DECRYPT_MODE, key, iv);

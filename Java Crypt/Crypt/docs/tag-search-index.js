@@ -1,1 +1,1 @@
-tagSearchIndex = [];updateSearchResults();
+tagSearchIndex = [{"l":"App Crypt - Base64","h":"class App","d":"Section","u":"App.html#app-crypt---base64-heading"}];updateSearchResults();
