@@ -1,6 +1,6 @@
 package com.crypt;
 
-import org.springframework.security.crypto.bcrypt.BCrypt;;;
+import org.springframework.security.crypto.bcrypt.BCrypt;
 
 public class Main {
     /**
