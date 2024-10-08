@@ -10,11 +10,11 @@ public class MongoConnection {
     public void setUpConnection(){
         try{
             //conectar na database na porta 27017
-            MongoClient mongoClient = MongoClients.create("mongodb+srv://<user>:<senha>@nodeapi.61bjodc" +
+            MongoClient mongoClient = MongoClients.create("mongodb+srv://<user>:<pass>@nodeapi.61bjodc" +
                     ".mongodb.net/");
             //selecionar a database
-            database = mongoClient.getDatabase("users-db");
-            System.out.println("Conectado a database!");
+            database = mongoClient.getDatabase("lab");
+            System.out.println("\033[32m" + "===== Conectado a database! =====" + "\033[0m");
         }catch(Exception e){
             e.printStackTrace();
         }
