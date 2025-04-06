@@ -1,0 +1,12 @@
+# Set's application.properties
+
+User and Password
+
+Too `roles`
+
+```
+# SPRING SECURITY
+spring.security.user.name=user
+spring.security.user.password=123
+spring.security.user.roles=ADMIN
+```
