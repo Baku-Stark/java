@@ -11,8 +11,7 @@ import java.util.Objects;
 public class MainApp extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/view/main.fxml"))); // Ajuste o caminho conforme sua estrutura
-        primaryStage.setTitle("Sua Aplicação");
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/view/main.fxml")));        primaryStage.setTitle("Sua Aplicação");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
